@@ -1,0 +1,17 @@
+*{margin:0;padding: 0; font-family: "Microsoft YaHei UI";}
+.mainhead{text-align: center;margin: auto;width: 100%;height: 70px;overflow: hidden;background-color: #99FF66;position: fixed;top: 0;}
+.mainhead>img{display: inline-block;border:1px solid #99ff99;width: 60px;height: 60px; margin-top: 4px;border-radius: 50%;}
+
+
+.mainhead>div{overflow: hidden;}
+.mainhead>div>img:first-child{float: left;height: 70px;}
+.mainhead>div>img:last-child{float: right;width: 50px;height: 70px;}
+.hidenav{width: 70px;height: 110px;float: right;list-style: none;text-align: center;margin-right: 10px;border:1px solid #cccccc; border-radius: 5px;}
+.hidenav>li{padding: 5px;margin-top: 5px;}
+.hidenav>li>a{text-decoration: none;}
+
+.foot{position: fixed;bottom:0;width: 100%;height: 60px;overflow: hidden;text-align: center;background-color: #ccffcc;}
+.foot>ul{width: 100%;position: relative;top:50%;margin-top: -9px;}
+.foot>ul>li{display: inline-block;width: 30%;font-size: 18px;font-weight: 600;}
+.foot>ul>li>a{text-decoration: none;color: #666666;}
+.foot>ul>li>a:hover{color: #00CCCC}

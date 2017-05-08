@@ -1,0 +1,24 @@
+#cost{width:100%;}
+.costmain,.incomemain,.debtmain,.costdetail,.debtdetail,.incomedetail{margin-top: 70px;width: 100%;overflow: hidden;}
+
+.moneymouth>li{margin-bottom: 10px;}
+.timemouth{width: 100%;text-align: center;padding-top: 10px;padding-bottom: 5px;background-color: #ccffcc;}
+.moneyday>li{margin-top: 10px;margin-bottom: 10px;}
+.moneyday>li>p:first-child{color: #999999;}
+.moneyday>li>a{text-decoration: none; color: #000000;}
+.moneyday>li>a>p{padding-left: 20px;padding-top: 5px;padding-bottom: 5px;}
+.moneyday>li>a>p>span{margin-left: 10px;}
+.isturn{top: 5px;position: relative;left: 10px;height: 30px;}
+.isturn>button{width: 100px;position: absolute;top: 5px;left: 0;height: 22px;}
+.isturn>button:first-child{box-shadow: 15px 10px 10px #ff0000 inset;}
+.isturn>button:last-child{box-shadow: 15px 10px 10px #ccffcc inset;}
+
+#active{color: #ffcc00;}
+.hide{display: none;}
+
+
+.detailmain{width: 70%;margin:auto;height: 300px;margin-top:30%;text-align: center;padding: 5px;}
+.detailmain>div{margin-top: 20px;}
+.detailmain span{color: #00CCCC;font-size: 20px;font-weight: 600;}
+.detailmain input{height: 24px;border:0;padding: 2px;font-size: 18px;border-bottom: 1px solid #cccccc;}
+
